@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "sacos:bolsas_comunes"
+		},
+		{
+			"item": "minecraft:light_gray_dye"
+		}
+	],
+	"result": {
+		"id": "sacos:bolsa_light_gray",
+		"count": 1
+	}
+}

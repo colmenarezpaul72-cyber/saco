@@ -1,0 +1,34 @@
+{
+	"criteria": {
+		"siempre": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"siempre"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"sacos:bolsa",
+			"sacos:ender_bag",
+			"sacos:bolsa_brown",
+			"sacos:bolsa_white",
+			"sacos:bolsa_orange",
+			"sacos:bolsa_magenta",
+			"sacos:bolsa_light_blue",
+			"sacos:bolsa_yellow",
+			"sacos:bolsa_lime",
+			"sacos:bolsa_pink",
+			"sacos:bolsa_gray",
+			"sacos:bolsa_light_gray",
+			"sacos:bolsa_cyan",
+			"sacos:bolsa_purple",
+			"sacos:bolsa_blue",
+			"sacos:bolsa_green",
+			"sacos:bolsa_red",
+			"sacos:bolsa_black"
+		]
+	}
+}

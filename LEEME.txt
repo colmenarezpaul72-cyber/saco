@@ -1,0 +1,36 @@
+SACOS DE DEDSAFIO 4 - Mod Fabric para Minecraft 1.21.1
+=====================================================
+
+Items (clic derecho para abrir). Estan en la pestana "Sacos de Dedsafio" del modo creativo (icono: Bolsa Ender),
+tambien con /give @s sacos:<id>
+  - Bolsa (marron, sacos:bolsa)      3 filas x 9 = 27 espacios. Se craftea con cuero + hilo.
+  - Bolsas de colores (15 tintes)    3 filas x 9 = 27 espacios cada una.
+      sacos:bolsa_white, bolsa_orange, bolsa_magenta, bolsa_light_blue, bolsa_yellow, bolsa_lime,
+      bolsa_pink, bolsa_gray, bolsa_light_gray, bolsa_cyan, bolsa_purple, bolsa_blue, bolsa_green,
+      bolsa_red, bolsa_black
+      CAMBIAR COLOR: cualquier bolsa comun (marron o de color) + un tinte en la mesa de crafteo.
+      Las recetas aparecen solas en el libro de recetas.
+      !!! Al cambiar el color, el contenido de la bolsa se PIERDE. Vaciala antes.
+  - Bolsa Ender (sacos:ender_bag)    3 filas x 9, abre tu ender chest. Bolsa + Ender Chest. No se tine.
+  - Bolsa Primigenia (sacos:bolsa_primigenia)  5 filas x 9 = 45 espacios. No se craftea ni se tine.
+  - Bolsa Phora (sacos:phora_bag)    6 filas x 9 = 54 espacios. No se craftea ni se tine.
+  - Bolsa Gleba (sacos:bolsa_gleba)  6 filas x 9 = 54 espacios. No se craftea ni se tine.
+  Las bolsas no se pueden meter dentro de otras bolsas.
+
+Los crafteos estan en src/main/resources/data/sacos/recipe/ (un archivo por receta).
+COMO HACER EL .JAR
+------------------
+Opcion A - en tu PC (necesitas Java JDK 25, instalador "Temurin" de adoptium.net):
+  1. Descomprime este zip.
+  2. Abre una terminal DENTRO de la carpeta (en Windows: escribe cmd en la barra de la carpeta).
+  3. Windows:  gradlew build        Mac/Linux:  ./gradlew build
+  4. El mod queda en build/libs/ -> usa el .jar que NO termina en -sources.
+  (La primera vez tarda unos minutos porque descarga Minecraft y Fabric.)
+
+Opcion B - sin instalar nada (GitHub):
+  1. Crea una cuenta gratis en github.com y un repositorio nuevo.
+  2. Sube TODO el contenido de esta carpeta (incluida la carpeta oculta .github).
+  3. Pestana "Actions" -> espera a que termine -> abajo en "Artifacts" descarga el .jar.
+
+Para jugar necesitas Fabric Loader y Fabric API para Minecraft 1.21.1.
+Si al compilar sale un error, copiamelo y lo arreglo.
